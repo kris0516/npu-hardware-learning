@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-10-28",
+  "repo": "kris0516/npu-hardware-learning",
+  "cadence_days": 14,
+  "authoritative": true,
+  "current_project": "P01",
+  "current_step": "P01-S01",
+  "current_step_title": "半加器真值表与进位直觉",
+  "current_step_status": "not_started",
+  "kickoff_date": null,
+  "step_evidence": [],
+  "note": "2026-10-28仓库部署；讲解过半加器，但未收到独立答题或测试反馈，不能标为PASS。初始化 AND smoke test 不计为P01学习进度。",
+  "projects": [
+    {
+      "id": "P01",
+      "slug": "P01-digital-logic",
+      "status": "not_started",
+      "started_at": null,
+      "passed_at": null,
+      "evidence": []
+    },
+    {
+      "id": "P02",
+      "slug": "P02-mcu-pcb",
+      "status": "not_started",
+      "started_at": null,
+      "passed_at": null,
+      "evidence": []
+    },
+    {
+      "id": "P03",
+      "slug": "P03-rtl-datapath",
+      "status": "not_started",
+      "started_at": null,
+      "passed_at": null,
+      "evidence": []
+    },
+    {
+      "id": "P04",
+      "slug": "P04-int8-mac",
+      "status": "not_started",
+      "started_at": null,
+      "passed_at": null,
+      "evidence": []
+    },
+    {
+      "id": "P05",
+      "slug": "P05-systolic-array",
+      "status": "not_started",
+      "started_at": null,
+      "passed_at": null,
+      "evidence": []
+    },
+    {
+      "id": "P06",
+      "slug": "P06-fpga-deployment",
+      "status": "not_started",
+      "started_at": null,
+      "passed_at": null,
+      "evidence": []
+    },
+    {
+      "id": "P07",
+      "slug": "P07-tiny-mlp",
+      "status": "not_started",
+      "started_at": null,
+      "passed_at": null,
+      "evidence": []
+    },
+    {
+      "id": "P08",
+      "slug": "P08-asic-flow",
+      "status": "not_started",
+      "started_at": null,
+      "passed_at": null,
+      "evidence": []
+    }
+  ]
+}
