@@ -1,20 +1,37 @@
 name: Learning repository CI
+
 on:
   push:
   pull_request:
   workflow_dispatch:
+
 permissions:
   contents: read
+
 jobs:
-  test:
+  validate-curriculum-and-rtl:
     runs-on: ubuntu-latest
+    timeout-minutes: 12
     steps:
       - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
       - name: Install Icarus Verilog
         run: sudo apt-get update && sudo apt-get install -y iverilog
-      - name: Run repository tests
-        run: python3 -m unittest discover -s tests -p 'test_*.py'
-      - name: Simulate example RTL
+      - name: Validate curriculum, states and Python tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Simulate pre-existing AND-gate smoke test
         run: |
-          iverilog -g2012 -s tb_and_gate -o /tmp/npu-and-gate rtl/and_gate.v tests/tb_and_gate.v
+          iverilog -g2012 -Wall -s tb_and_gate -o /tmp/npu-and-gate rtl/and_gate.v tests/tb_and_gate.v
           vvp /tmp/npu-and-gate
+      - name: Run optional per-project RTL test runners
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          for test_runner in tests/P*/run.sh; do
+            echo "Running $test_runner"
+            bash "$test_runner"
+          done

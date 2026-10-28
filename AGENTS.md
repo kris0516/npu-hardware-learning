@@ -4,7 +4,7 @@
 
 ## 每轮开始
 
-1. 读取 `learning/state.json`、`docs/HANDOFF.md`、`docs/TEACHING_PROTOCOL.md`、`docs/ASSESSMENT.md`，以及当前 `projects/Pxx-*/README.md`。
+1. 读取 `learning/state.json`（含 P01–P08 全部 48 个 Step 状态）、`docs/HANDOFF.md`、`docs/TEACHING_PROTOCOL.md`、`docs/ASSESSMENT.md`，以及当前 `projects/Pxx-*/README.md`。
 2. 读取最新 `main` HEAD 与相关 RTL/testbench/Notebook 母版；不要假定上一个聊天的代码状态。
 3. 明确当前项目、步骤、已有证据、上一轮待处理问题。若文件冲突，以 GitHub 实测和 `state.json` 为准，先更正状态。
 4. 只推进一个尚未验收的小知识点，不提前跳到下一个项目。
@@ -15,7 +15,7 @@
 - 不可把 CI PASS、自动生成代码 PASS、示例 smoke test PASS 当成学生已掌握。
 - 对组合逻辑要求说明真值表/布尔方程；时序逻辑要求说明周期、复位、有效信号；MAC/阵列要求说明位宽、符号位、延迟及数据复用。
 - 不虚构 FPGA 上板结果、频率、延迟、功率、面积或 ASIC 流片。
-- 每当改动学习状态，必须附证据路径、学生解释摘要和具体审核结论；没有证据保持 not_started / in_progress / needs_revision。
+- 每当改动学习状态，必须附证据路径、学生解释摘要和具体审核结论；没有证据保持 not_started / in_progress / needs_revision / blocked。
 - 不直接向主分支推送无法复现的二进制工件或商业 PDK/有许可证的 IP。
 
 ## Codex 可以做 / 不应做
@@ -29,7 +29,7 @@
 - 一个 Step 原则上只教一项新知识；通常给一个不超过 15 行的关键代码片段、一个小练习、一个检查点；大段背景以链接供选读。
 - 初始 Mac/EDA/硬件环境配置**每次只给一条终端命令**，等待学员反馈。平常已有环境时，拉取母版与复制工作文件分成两个独立命令块。
 - 教师保存母版在 `notebooks/masters/`，学员实验在 `notebooks/work/`（默认 Git 忽略本地草稿）。正式成果、测试和证据经学员确认后放项目目录。
-- 每次里程碑后更新 `learning/state.json`、`learning/knowledge.md` 和 `docs/HANDOFF.md`，必要时追加 `learning/decisions.md`，commit 文案记录 Pxx 和步骤。
+- 每次里程碑后更新 `learning/state.json`（项目与 Step 状态）、`learning/knowledge.md` 和 `docs/HANDOFF.md`，必要时追加 `learning/decisions.md`，commit 文案记录 Pxx 和步骤。
 - 改动核心代码时要求 self-checking testbench / golden model。未能运行的测试写明“未执行”，不要宣称通过。
 
-详见 `docs/TEACHING_PROTOCOL.md` 和 `docs/CROSS_CHAT.md`。
+详见 `docs/TEACHING_PROTOCOL.md`、`docs/STATE_MODEL.md` 和 `docs/CROSS_CHAT.md`。

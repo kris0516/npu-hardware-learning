@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "updated_at": "2026-10-28",
   "repo": "kris0516/npu-hardware-learning",
   "cadence_days": 14,
@@ -75,6 +75,392 @@
       "started_at": null,
       "passed_at": null,
       "evidence": []
+    }
+  ],
+  "steps": [
+    {
+      "id": "P01-S01",
+      "project": "P01",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P01-S02",
+      "project": "P01",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P01-S03",
+      "project": "P01",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P01-S04",
+      "project": "P01",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P01-S05",
+      "project": "P01",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P01-S06",
+      "project": "P01",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P02-S01",
+      "project": "P02",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P02-S02",
+      "project": "P02",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P02-S03",
+      "project": "P02",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P02-S04",
+      "project": "P02",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P02-S05",
+      "project": "P02",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P02-S06",
+      "project": "P02",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P03-S01",
+      "project": "P03",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P03-S02",
+      "project": "P03",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P03-S03",
+      "project": "P03",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P03-S04",
+      "project": "P03",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P03-S05",
+      "project": "P03",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P03-S06",
+      "project": "P03",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P04-S01",
+      "project": "P04",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P04-S02",
+      "project": "P04",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P04-S03",
+      "project": "P04",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P04-S04",
+      "project": "P04",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P04-S05",
+      "project": "P04",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P04-S06",
+      "project": "P04",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P05-S01",
+      "project": "P05",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P05-S02",
+      "project": "P05",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P05-S03",
+      "project": "P05",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P05-S04",
+      "project": "P05",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P05-S05",
+      "project": "P05",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P05-S06",
+      "project": "P05",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P06-S01",
+      "project": "P06",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P06-S02",
+      "project": "P06",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P06-S03",
+      "project": "P06",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P06-S04",
+      "project": "P06",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P06-S05",
+      "project": "P06",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P06-S06",
+      "project": "P06",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P07-S01",
+      "project": "P07",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P07-S02",
+      "project": "P07",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P07-S03",
+      "project": "P07",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P07-S04",
+      "project": "P07",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P07-S05",
+      "project": "P07",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P07-S06",
+      "project": "P07",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P08-S01",
+      "project": "P08",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P08-S02",
+      "project": "P08",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P08-S03",
+      "project": "P08",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P08-S04",
+      "project": "P08",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P08-S05",
+      "project": "P08",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
+    },
+    {
+      "id": "P08-S06",
+      "project": "P08",
+      "status": "not_started",
+      "evidence": [],
+      "passed_at": null,
+      "review_note": null
     }
   ]
 }
