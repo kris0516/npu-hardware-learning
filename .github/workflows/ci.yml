@@ -1,0 +1,20 @@
+name: Learning repository CI
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Icarus Verilog
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+      - name: Run repository tests
+        run: python3 -m unittest discover -s tests -p 'test_*.py'
+      - name: Simulate example RTL
+        run: |
+          iverilog -g2012 -s tb_and_gate -o /tmp/npu-and-gate rtl/and_gate.v tests/tb_and_gate.v
+          vvp /tmp/npu-and-gate
